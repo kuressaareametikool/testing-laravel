@@ -1,0 +1,84 @@
+{
+  "tests": [
+    {
+      "name": "Check for index page",
+      "setup": "",
+      "run": "./vendor/bin/pest --filter 'has index page'",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "Has index page",
+      "setup": "",
+      "run": "./vendor/bin/pest --filter 'has home navigation'",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "Has services navigation",
+      "setup": "",
+      "run": "./vendor/bin/pest --filter 'has services navigation'",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "Has contacts navigation",
+      "setup": "",
+      "run": "./vendor/bin/pest --filter 'has contacts navigation'",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "Has services page",
+      "setup": "",
+      "run": "./vendor/bin/pest --filter 'has services page'",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "Has services heading",
+      "setup": "",
+      "run": "./vendor/bin/pest --filter 'has services heading'",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "Has contacts page",
+      "setup": "",
+      "run": "./vendor/bin/pest --filter 'has contacts page'",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "Has contacts heading",
+      "setup": "",
+      "run": "./vendor/bin/pest --filter 'has contacts heading'",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 1
+    }
+  ]
+}
